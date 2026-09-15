@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Lesson 6</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="firstname">First Name:</label>
+        <input type="text" value="Mat" required> <br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Sheno Mbiemrin"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" readonly><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" disabled><br>
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="female" value="female">
+        <label for="female">female</label><br>
+        
+        <label for="hobbies">Hobbies:</label> <br>
+        <input type="checkbox" id="gaming" name="gaming" value="gaming">
+        <label>Gaming</label><br>
+        <input type="checkbox" id="Football" name="Football" value="Football">
+        <label>Football</label><br>
+        <input type="checkbox" id="swimming" name="swimming" value="swimming">
+        <label>Swimming</label>
+        <br>
+        <select name="pet" id="pet">
+            <option value="none">none</option>
+            <option value="cat">cat</option>
+            <option value="dog">dog</option>
+            <option value="parrot">parrot</option>
+        </select><br>
+        <textarea name="message" rows="5" id="message" maxlength="30"></textarea>
+        <br>
+        <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
