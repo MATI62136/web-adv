@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial;
+    
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+header{
+    background-color: #ffc5c5;
+    min-height: 500px;
+    padding: 40px 10%;
+}
+
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 10px;
+}
+button{
+    border: 2px black solid;
+    background-color: #ffc5c5;
+    height: 30px;
+    width: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -1px;
+}
+.header-bottom{
+    margin: 10px
+}
