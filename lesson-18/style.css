@@ -1,0 +1,28 @@
+#lfc1 img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+#lfc1:hover img{
+    transform: scale(1.2);
+}
+#lfc2 img{
+    margin-left: 0;
+    transition: 0.3s ease-in-out;
+}
+#lfc2:hover img{
+    margin-left: 30px;
+}
+#lfc3 img{
+    filter: blur(3px);
+    transition: 0.4s;
+}
+#lfc3:hover img{
+    filter: blur(0);
+}
+#lfc4 img{
+    filter: grayscale(100%);
+    transition: 0.5s ease-in-out;
+}
+#lfc4:hover img{
+    filter: grayscale(0%);
+}
