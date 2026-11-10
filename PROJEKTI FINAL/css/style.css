@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Inst-Serif;
+    src: url('Instrument_Serif/InstrumentSerif-Regular.ttf');
+}
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    background-color: #3B5D9C;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+nav button{
+    height: 40px;
+    background-color: black;
+    color: white;
+    border:0;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-family: ;
+}
+nav a{
+    color: white;
+    margin-top: 25px;
+}
