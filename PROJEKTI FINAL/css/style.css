@@ -1,29 +1,118 @@
 @font-face {
     font-family: Inst-Serif;
-    src: url('Instrument_Serif/InstrumentSerif-Regular.ttf');
+    src: url('../Instrument_Serif/InstrumentSerif-Regular.ttf');
+}
+@font-face {
+    font-family: Inter;
+    src: url('../Instrument_Serif/Inter_18pt-Regular.ttf');
+}
+html, body{
+    min-height: 100vh;
 }
 body{
     margin: 0;
+    background: linear-gradient(rgb(71, 110, 184), rgb(15, 31, 54));
 }
 nav{
     display: flex;
     flex-direction: row;
-    height: 75px;
-    background-color: #3B5D9C;
+    height: 85px;
+    background-color: #4f75bd;
     justify-content: space-evenly;
     text-align: center;
+    box-shadow: 0 4px 12px rgb(0, 0, 0, 0.3),
+    inset 0 4px 12px rgb(0, 0, 0, 0.2);
 
 }
 nav button{
     height: 40px;
+    width: 100px;
     background-color: black;
     color: white;
     border:0;
     border-radius: 8px;
-    margin-top: 15px;
-    font-family: ;
+    margin-top: 22px;
+    font-family: Inst-Serif;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 12px rgb(0, 0, 0, 0.5)
 }
 nav a{
     color: white;
-    margin-top: 25px;
+    margin-top: 32px;
+    font-family: Inst-Serif;
+}
+nav img{
+    height: 65px;
+    margin-top: 9px;
+    margin-right: 900px;
+}
+.main{
+    position: absolute;
+}
+.mainp{
+    color: rgb(255, 255, 255);
+    font-family: Inst-Serif;
+    font-size: 80px;
+    margin-left: 50px;
+}
+.line1{
+    height: 2px;
+    width: 250px;
+    background-color: white;
+    margin-top: -58px;
+    margin-left: 30px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.5);
+}
+.line2{
+    height: 50px;
+    width: 2px;
+    background-color: white;
+    margin-left: 41px;
+    margin-top: -40px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.5);
+}
+.linesmain{
+    margin-top: -93px;
+}
+.main img{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 800px;
+}
+.line3{
+    height: 2px;
+    width: 250px;
+    background-color: white;
+    margin-bottom: -60px;
+    margin-left: 20px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.5);
+}
+.line4{
+    height: 250px;
+    width: 2px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: -235px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.5);
+}
+.mainright{
+    float: right;
+}
+.p1m{
+    display: flex;
+    color: white;
+    font-family: Inter;
+    margin-left: 880px;
+    position: relative;
+    margin-top: -550px;
+    text-align: right;
+}
+.p1m a{
+    
+    color: rgb(0, 5, 19);
+}
+.p1chm{
+    margin-left: 1200px;
+    color: white;
+    font-family: inter;
 }
