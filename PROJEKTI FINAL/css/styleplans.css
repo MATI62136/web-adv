@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Inst-Serif;
+    src: url('../Instrument_Serif/InstrumentSerif-Regular.ttf');
+}
+@font-face {
+    font-family: Inter;
+    src: url('../Instrument_Serif/Inter_18pt-Regular.ttf');
+}
+html, body{
+    min-height: 100vh;
+}
+body{
+    margin: 0;
+    background: linear-gradient(rgb(71, 110, 184), rgb(15, 31, 54));
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    background-color: #4f75bd;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 0 4px 12px rgb(0, 0, 0, 0.3),
+    inset 0 4px 12px rgb(0, 0, 0, 0.2);
+
+}
+nav button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border:0;
+    border-radius: 8px;
+    margin-top: 22px;
+    font-family: Inst-Serif;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 12px rgb(0, 0, 0, 0.5)
+}
+nav a{
+    color: white;
+    margin-top: 32px;
+    font-family: Inst-Serif;
+}
+nav img{
+    height: 65px;
+    margin-top: 9px;
+    margin-right: 900px;
+}

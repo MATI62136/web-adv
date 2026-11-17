@@ -105,14 +105,50 @@ nav img{
     margin-left: 880px;
     position: relative;
     margin-top: -550px;
-    text-align: right;
-}
-.p1m a{
-    
-    color: rgb(0, 5, 19);
+    font-size: 20px;
+    text-align: center;
 }
 .p1chm{
-    margin-left: 1200px;
+    margin-left: 1125px;
     color: white;
     font-family: inter;
+}
+.ch2ck{
+    margin-left: 43px;
+}
+.p1chm1{
+    margin-left: 1125px;
+    color: white;
+    font-family: inter;
+
+}
+.buttonright{
+    margin-left: 970px;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 22px 22px 0 0;
+    font-family: inst-serif;
+    font-size: 60px;
+}
+.buttonright2{
+    margin-left: 970px;
+    width: 600px;
+    height: 110px;
+    background-color: black;
+    border: 0;
+    color: white;
+    font-family: inst-serif;
+    border-radius: 0 0 22px 22px;
+    margin-top: 7px;
+    font-size: 50px;
+}
+.buttons{
+    margin-top: 70px;
+}
+.checkboxes{
+    margin-top: 50px;
 }
