@@ -46,3 +46,113 @@ nav img{
     margin-top: 9px;
     margin-right: 900px;
 }
+.h1main{
+    margin-top: 50px;
+    margin-left: 80px;
+    font-family: inst-serif;
+    color: white;
+    font-size: 50px;
+}
+.h1main i{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.box1{
+    color: white;
+    width: 500px;
+    height: 550px;
+    background-color: black;
+    margin-left: 80px;  
+    border: 2px solid;
+    border-image: linear-gradient( #a19f29, #000000) 1;
+    font-family: inst-serif;
+    padding-left: 60px;
+}
+.box1 p{
+   font-size: 50px;
+}
+.box1 li{
+    list-style: circle;
+    margin-left: -22px;
+}
+.box1 button{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid;
+    border-image: linear-gradient(rgb(80, 80, 39), rgb(209, 209, 45)) 1;
+    background-color: #000000;
+    color: white;
+    font-family: inter;
+    font-size: 20px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.box1 button img{
+    height: 30px;
+}
+.box1 button:hover{
+    box-shadow: 1px 1px 10px rgb(80, 80, 39);
+}
+.h31{
+    font-weight: 300;
+    margin-left: -36px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.box2{
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    margin-right: 440px;  
+    border: 2px solid;
+    border-image: linear-gradient( #000000, #f300fc) 1;
+    font-family: inst-serif;
+    padding-left: 60px;
+}
+.box2 p{
+   font-size: 50px;
+}
+.box2 li{
+    list-style: circle;
+    margin-left: -22px;
+}
+.box2 button{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid;
+    border-image: linear-gradient(rgb(0, 0, 0), rgb(209, 45, 201)) 1;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: inter;
+    font-size: 20px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-top: 96px;
+}
+.box2 button img{
+    height: 30px;
+    filter: brightness(0);
+}
+.box2 button:hover{
+    box-shadow: 1px 1px 10px rgb(80, 80, 39);
+}
+.boxes{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.box2 h1{
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
